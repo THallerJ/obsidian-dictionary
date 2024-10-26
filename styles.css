@@ -1,8 +1,34 @@
-/*
+.modal-button-wrapper-dictionary {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 0rem 0;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.modal-title-dictionary {
+    display: flex;
+    justify-content: center;
+}
 
-If your plugin does not need CSS, delete this file.
+.modal-button-dictionary {
+    box-shadow: none !important;
+}
 
-*/
+.center-para-dictionary {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+}
+
+.para-dictionary {
+    min-height: 6rem;
+}
+
+.part-of-speech-dictionary {
+    font-weight: var(--font-bold);
+    color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+}
+
+.span-count-dictionary {
+    font-size: var(--font-smaller);
+    font-weight: var(--font-semibold);
+}
